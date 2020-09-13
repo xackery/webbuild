@@ -2,7 +2,7 @@
 Docker image for building node
 
 
-node version: 8.10.0
+node version: 12.18.3
 npm version: 3.5.2
 
 example usage:

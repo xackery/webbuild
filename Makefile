@@ -1,4 +1,4 @@
-VERSION := 8.10.0
+VERSION := 10.19.0
 .PHONY: build
 build:
 	@docker build -t xackery/webbuild .

@@ -1,9 +1,9 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y update \
     && apt-get -y install --no-install-recommends locales apt-utils dialog 2>&1 \
-    && apt-get -y install git npm less wget \
+    && apt-get -y install build-essential git less wget curl npm \
     #clean up
     && apt-get autoremove -y \
     && apt-get clean -y \
