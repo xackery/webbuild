@@ -1,9 +1,10 @@
 # webbuild
 Docker image for building node
 
-
-node version: 12.18.3
-npm version: 3.5.2
+linux version: ubuntu 20.04
+node version: 10.19.0
+npm version: 6.14.4
+yarn version: 1.22.5
 
 example usages:
 ```
